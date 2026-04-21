@@ -1,0 +1,19 @@
+{
+  "args": {
+    "data_dir": "data/UCI_HAR_Dataset",
+    "split": "subject",
+    "sensors": "both",
+    "seed": 42,
+    "epochs": 30,
+    "batch_size": 128,
+    "lr": 0.001,
+    "dropout": 0.3,
+    "patience": 5
+  },
+  "best_val_macro_f1": 0.9761025756582252,
+  "test_metrics": {
+    "accuracy": 0.8403256105197244,
+    "macro_f1": 0.8449341386718897
+  },
+  "model_path": "outputs/results/cnnlstm_subject_both_seed42.pt"
+}

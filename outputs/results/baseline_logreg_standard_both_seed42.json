@@ -1,0 +1,12 @@
+{
+  "args": {
+    "data_dir": "data/UCI_HAR_Dataset",
+    "split": "standard",
+    "sensors": "both",
+    "seed": 42
+  },
+  "metrics": {
+    "accuracy": 0.5785544621649135,
+    "macro_f1": 0.5486192580616055
+  }
+}

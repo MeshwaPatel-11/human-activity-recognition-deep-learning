@@ -1,0 +1,13 @@
+{
+  "args": {
+    "data_dir": "data/UCI_HAR_Dataset",
+    "sensors": "both",
+    "seed": 42,
+    "model": "cnnlstm",
+    "ckpt": "outputs/results/cnnlstm_subject_both_seed42.pt"
+  },
+  "metrics": {
+    "accuracy": 0.8403256105197244,
+    "macro_f1": 0.8449341386718897
+  }
+}

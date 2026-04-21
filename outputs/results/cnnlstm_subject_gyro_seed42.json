@@ -1,0 +1,19 @@
+{
+  "args": {
+    "data_dir": "data/UCI_HAR_Dataset",
+    "split": "subject",
+    "sensors": "gyro",
+    "seed": 42,
+    "epochs": 30,
+    "batch_size": 128,
+    "lr": 0.001,
+    "dropout": 0.3,
+    "patience": 5
+  },
+  "best_val_macro_f1": 0.7597919465161073,
+  "test_metrics": {
+    "accuracy": 0.6599874765184721,
+    "macro_f1": 0.6575724575001525
+  },
+  "model_path": "outputs/results/cnnlstm_subject_gyro_seed42.pt"
+}

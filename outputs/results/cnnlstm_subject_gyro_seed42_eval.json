@@ -1,0 +1,13 @@
+{
+  "args": {
+    "data_dir": "data/UCI_HAR_Dataset",
+    "sensors": "gyro",
+    "seed": 42,
+    "model": "cnnlstm",
+    "ckpt": "outputs/results/cnnlstm_subject_gyro_seed42.pt"
+  },
+  "metrics": {
+    "accuracy": 0.6599874765184721,
+    "macro_f1": 0.6575724575001525
+  }
+}
