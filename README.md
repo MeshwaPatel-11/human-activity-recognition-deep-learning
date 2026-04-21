@@ -13,6 +13,13 @@ This project performs an empirical analysis on the **UCI HAR** dataset using:
 - **Primary evaluation:** Subject-independent split (disjoint subjects across train/val/test)  
 - **Additional experiments:** Sensor ablation (accel vs gyro vs both), robustness testing (Gaussian noise + time-step masking)
 
+**My Contribution:**
+
+Built and trained deep learning models for HAR
+Performed preprocessing and dataset handling
+Conducted evaluation, robustness analysis, and ablation experiments
+Generated visualizations and result summaries
+
 **Dataset source (UCI):**  
 https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones
 
